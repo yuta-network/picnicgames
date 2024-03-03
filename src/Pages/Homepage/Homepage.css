@@ -1,8 +1,9 @@
 .banner {
   width: 100%;
-  height: 550px;
+  height: 650px;
   background-image: url(../../../public/images/homepage/banner-bg.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .banner--topspace {
@@ -10,8 +11,6 @@
 }
 
 .banner--content {
-  height: 80%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,12 +23,12 @@
 }
 
 .banner--content-bg {
-  width: 55%;
+  width: 800px;
 }
 
 .banner-content-msg-action {
   position: absolute;
-  top: 10px;
+  top: 60px;
   z-index: 1;
 }
 
@@ -42,19 +41,19 @@
   line-height: 70px;
 }
 
-.msg-line-1 {
+.banner-msg-line-1 {
   font-size: 40px;
   font-weight: 800;
   color: #09303a;
 }
 
-.msg-line-2 {
+.banner-msg-line-2 {
   font-size: 68px;
   font-weight: 800;
   color: #09303a;
 }
 
-.msg-line-3 {
+.banner-msg-line-3 {
   font-size: 40px;
   font-weight: 800;
   color: #09303a;
@@ -90,4 +89,44 @@
   border-radius: 5px;
   font-weight: 700;
   font-size: 14px;
+}
+
+.org-msg {
+  background-color: #fff;
+  width: 100%;
+  height: 450px;
+  padding: 30px;
+}
+
+.org-msg .h1-format {
+  color: #09303a;
+  font-family: "Chicle", serif;
+  font-size: 120px;
+  text-align: right;
+}
+
+.org-msg .h6-small {
+  background-color: aquamarine;
+  width: 600px;
+  height: 20px;
+}
+
+.org-msg .h4-format {
+  font-size: 30px;
+  text-align: left;
+  color: #09303a;
+  font-weight: 700;
+  padding-top: 100px;
+}
+
+.org-msg .h6-format {
+  padding-top: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.featured-games-section {
+  width: 100%;
+  height: 400px;
+  background-color: #f3f1ea;
 }

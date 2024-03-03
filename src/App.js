@@ -1,6 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import Homepage from "./Pages/Homepage/Homepage";
 import About from "./Pages/About/About";
 import Games from "./Pages/Games/Games";
@@ -22,6 +23,7 @@ function App() {
         <Route path="/feedback" Component={Feedback} />
         <Route path="/notfound" Component={Notfound} />
       </Routes>
+      <Footer />
     </div>
   );
 }
