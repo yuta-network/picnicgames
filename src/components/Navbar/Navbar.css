@@ -7,10 +7,7 @@
 
 nav {
   background-color: #ffffff;
-}
-
-div {
-  border: 0px solid;
+  position: fixed;
 }
 
 .navbar--menu {
