@@ -129,4 +129,19 @@
   width: 100%;
   height: 400px;
   background-color: #f3f1ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.featured-games-title {
+  border: 1px solid;
+  height: 80px;
+  font-size: 40px;
+  color: #09303a;
+  font-family: "Chicle", serif;
+}
+
+.featured-games-section {
+  border: 1px solid;
 }
