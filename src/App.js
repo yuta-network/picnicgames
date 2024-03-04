@@ -22,6 +22,7 @@ function App() {
         <Route path="/news" Component={News} />
         <Route path="/feedback" Component={Feedback} />
         <Route path="/notfound" Component={Notfound} />
+        <Route path="*" Component={Notfound} />
       </Routes>
       <Footer />
     </div>

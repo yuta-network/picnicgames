@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Chicle&display=swap");
+
 .banner {
   width: 100%;
   height: 650px;
@@ -105,12 +107,6 @@
   text-align: right;
 }
 
-.org-msg .h6-small {
-  background-color: aquamarine;
-  width: 600px;
-  height: 20px;
-}
-
 .org-msg .h4-format {
   font-size: 30px;
   text-align: left;
@@ -127,7 +123,7 @@
 
 .featured-games-section {
   width: 100%;
-  height: 400px;
+  height: 650px;
   background-color: #f3f1ea;
   display: flex;
   flex-direction: column;
@@ -135,13 +131,49 @@
 }
 
 .featured-games-title {
-  border: 1px solid;
-  height: 80px;
-  font-size: 40px;
+  height: 140px;
+  font-size: 60px;
   color: #09303a;
   font-family: "Chicle", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.featured-games-section {
-  border: 1px solid;
+.featured-locations-section {
+  width: 100%;
+  height: 650px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.featured-locations-title {
+  height: 140px;
+  font-size: 60px;
+  color: #09303a;
+  font-family: "Chicle", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.news-section {
+  width: 100%;
+  height: 650px;
+  background-color: #f3f1ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-title {
+  height: 140px;
+  font-size: 60px;
+  color: #09303a;
+  font-family: "Chicle", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
