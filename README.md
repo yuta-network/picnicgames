@@ -1,8 +1,5 @@
-![image](https://github.com/yuta-network/picnicgames/assets/88374323/f0cbce37-ba6d-48a6-b3ba-cc7ae4ec61d9)![image](https://github.com/yuta-network/picnicgames/assets/88374323/37ed3177-3088-4bd6-983a-9958f11e1a60)![image](https://github.com/yuta-network/picnicgames/assets/88374323/feb37a65-413e-4849-ae1a-50f2a35d1779)![image](https://github.com/yuta-network/picnicgames/assets/88374323/09e45320-e118-4ee6-916c-20bbd63e506b)<a  name="readme-top"></a>
-  
-<!-- HARVEL ELECTRIC -->
-
-<br  />
+<a href="https://www.figma.com/proto/DHNiFqwkQkZwXch83NpOEl/Root?page-id=0%3A1&type=design&node-id=1-2&viewport=461%2C246%2C0.26&t=Yf7UUaxDx7EkDU1n-1&scaling=contain&mode=design">https://www.figma.com/proto/DHNiFqwkQkZwXch83NpOEl/Root?page-id=0%3A1&type=design&node-id=1-2&viewport=461%2C246%2C0.26&t=Yf7UUaxDx7EkDU1n-1&scaling=contain&mode=design</a>
+<br />
 
 <div  align="center">
 
