@@ -1,71 +1,114 @@
-# Getting Started with Create React App
+![image](https://github.com/yuta-network/picnicgames/assets/88374323/f0cbce37-ba6d-48a6-b3ba-cc7ae4ec61d9)![image](https://github.com/yuta-network/picnicgames/assets/88374323/37ed3177-3088-4bd6-983a-9958f11e1a60)![image](https://github.com/yuta-network/picnicgames/assets/88374323/feb37a65-413e-4849-ae1a-50f2a35d1779)![image](https://github.com/yuta-network/picnicgames/assets/88374323/09e45320-e118-4ee6-916c-20bbd63e506b)<a  name="readme-top"></a>
+  
+<!-- HARVEL ELECTRIC -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br  />
 
-## Available Scripts
+<div  align="center">
 
-In the project directory, you can run:
 
-### `npm start`
+<img  src="https://raw.githubusercontent.com/yuta-network/picnicgames/main/public/images/picnicgames-logo.png"  alt="Logo"  width="400px"  height="auto">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  
 
-### `npm test`
+<h3  align="center">PicnicGames</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  We are a company specializing in distributing products from famous brands, but we are committed totrying to serve and sell quality products, suitable for customers' prices. needs for family use, the company has sold a number of household electrical products, refrigeration... And we believe that one day soon, our company will be known to more people.
+  <br  />
+  <a  href="#"><strong>Explore the source »</strong></a>
+  <a  href="#" target="_blank"><strong>Explore the documents »</strong></a>
 
-### `npm run build`
+  <br  /><a  href="#" target="_blank">view demo</a>
+  <a  href="#" target="_blank">Video</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ### Built With
+  Below is the languages/libraries we used for this project:
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div  align="left">
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+  
+### Features </br>
+<ol>
+<li>
+The Home Page should be created making use of Sections with a suitable logo, the header section can be added which will show images of various creative products.</br>
+</li>
+<li>
+The site must contain the links to navigate through any category for the information.</br>
+</li>
+<li>
+The games  should be categorized according to the type of games indoor/outdoor</br>
+</li>
+<li>
+Also there should different be sections for 
+  <ul>
+    <li>Kids</li>
+    <li>Males</li>
+    <li>Females</li>
+    <li>Family games</li>
+  </ul></br>
+</li>
+<li>
+When a user selects any particular category, a list of available game options for that particular category will be displayed</br>
+</li>
+<li>
+All details about the selected game to be displayed as material needed, time required, how to play etc with the demo videos / instruction document ,also these should be stored in Individual Word documents which can be downloaded or viewed by the User who wishes to see the same.</br>
+</li>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<li>
+Along with the games there should also be a section for a common iternery for small getaways with suggested locations.</br>
+</li>
+<li>
+Site Makers Contact us page: contact us details with location should be displayed using GeoLocation API (eg. GoogleMaps).</br>
+</li>
+<li>
+Navigation should be smooth and images should be clear.
+</li>
+</ol>
 
-### Making a Progressive Web App
+ ## Members of group
+ ### Leader : Tran Cong Tan `Student1526148`
+#### Members:
+Tran Thi Thao `Student1501286` </br>
+Nguyen Van Thuong `Student1529017` </br>
+Nguyen Hoang Quan `Student1529020` </br>
+Nguyen Thi Mai Huong `Student1529019` </br>
+Le Thanh Dat `Student1526180` </br>
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# picnicgames
+
+
+
+
+
+
+
+
+
+
+[HTML]:https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[CSS3]:https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[JS]:https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[SASS]:https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+[REACT]:https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
