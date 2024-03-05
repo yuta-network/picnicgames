@@ -12,7 +12,7 @@
 
 <h3  align="center">PicnicGames</h3>
 
-  We are a company specializing in distributing products from famous brands, but we are committed totrying to serve and sell quality products, suitable for customers' prices. needs for family use, the company has sold a number of household electrical products, refrigeration... And we believe that one day soon, our company will be known to more people.
+ Slogan /
   <br  />
   <a  href="#"><strong>Explore the source »</strong></a>
   <a  href="#" target="_blank"><strong>Explore the documents »</strong></a>
@@ -81,7 +81,6 @@ Navigation should be smooth and images should be clear.
  ## Members of group
  ### Leader : Tran Cong Tan `Student1526148`
 #### Members:
-Tran Thi Thao `Student1501286` </br>
 Nguyen Van Thuong `Student1529017` </br>
 Nguyen Hoang Quan `Student1529020` </br>
 Nguyen Thi Mai Huong `Student1529019` </br>
