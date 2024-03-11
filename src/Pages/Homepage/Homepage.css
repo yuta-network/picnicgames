@@ -177,3 +177,224 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.feedback-section {
+  width: 100%;
+  height: 550px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback-title {
+  height: 140px;
+  font-size: 60px;
+  color: #09303a;
+  font-family: "Chicle", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 360px;
+  background-color: #fff;
+}
+
+.carousel-inner {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev-icon {
+  background-color: #e74b25 !important;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  color: #09303a;
+  font-size: 36px;
+}
+
+.carousel-ctn {
+  width: 100%;
+  height: 100%;
+}
+
+.feedback-profile-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feedback-profile-img img {
+  border-radius: 50%;
+  width: 180px;
+}
+
+.feedback-profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feedback-profile-content div {
+  padding: 5px 0px;
+}
+
+.feedback-profile-name {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.feedback-rate {
+  text-align: left;
+  color: #ffe97f;
+  font-size: 14px;
+}
+
+.feedback-rate i {
+  padding: 0px 3px;
+}
+
+.feedback-description {
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.feedback-inline {
+  height: 350px;
+}
+
+.contact-us-section {
+  background-color: #f3f1ea;
+  height: 1050px;
+}
+
+.contact-us-line-1 {
+  height: 270px;
+  position: relative;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
+.contact-us-line-1 div {
+  position: absolute;
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 220px;
+  color: #09303a;
+  top: 170px;
+  line-height: 0px;
+}
+
+.contact-us--subtext {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  color: #09303a;
+}
+
+.contact-us--description {
+  text-align: left;
+  font-size: 24px;
+}
+
+.contact-us--img-infor {
+  position: relative;
+}
+
+.contact-us--img-infor img {
+  width: 260px;
+}
+
+.contact-us--medium_size-input input {
+  width: 320px;
+  height: 45px;
+  border: 2px solid #ededed;
+  border-radius: 5px;
+}
+
+.contact-us--medium_size-input input:placeholder-shown {
+  padding-left: 20px;
+}
+
+.contact-us--medium_size-input {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.contact-us--textarea {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.contact-us--textarea textarea {
+  width: 705px;
+  border: 2px solid #ededed;
+  border-radius: 5px;
+  height: 200px;
+}
+
+.contact-us--textarea textarea:placeholder-shown {
+  padding: 15px 20px;
+}
+
+.contact-us--information {
+  width: 240px;
+}
+
+.contact-us--information span {
+  display: block;
+  text-align: left;
+}
+
+.contact-us--information-text-h1 {
+  font-family: "Catamaran", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #09303a;
+}
+
+.contact-us--information-text {
+  font-size: 20px;
+}
+
+.contact-us--information-text-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-us--information-text-highlight {
+  font-size: 20px;
+  color: #e74b25;
+}
+
+.contact-us--information {
+  position: absolute;
+  left: 150px;
+  top: 500px;
+}
+
+.contact-us--submit-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-top: 50px;
+}
+
+.contact-us--submit-btn button {
+  border: none;
+  background-color: #e74b25;
+  color: #fff;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: "Chicle", serif;
+  font-size: 18px;
+}

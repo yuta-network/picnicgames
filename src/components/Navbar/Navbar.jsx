@@ -28,13 +28,7 @@ function Navbar() {
               <NavLink to="/games">Games</NavLink>
             </li>
             <li className="nav-item d-inline">
-              <NavLink to="/locations">Locations</NavLink>
-            </li>
-            <li className="nav-item d-inline">
-              <NavLink to="/news">News</NavLink>
-            </li>
-            <li className="nav-item d-inline">
-              <NavLink to="/feedback">Feedback</NavLink>
+              <NavLink to="/gallery">Gallery</NavLink>
             </li>
           </ul>
         </div>
@@ -44,7 +38,7 @@ function Navbar() {
         </div>
         <div className="col-md-1">
           <div className="navbar--contactus-btn">
-            <span>Contact Us</span>
+            <NavLink to="/contact-us">Contact Us</NavLink>
           </div>
         </div>
       </div>

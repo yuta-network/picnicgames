@@ -56,3 +56,8 @@ nav {
   justify-content: center;
   cursor: pointer;
 }
+
+.navbar--contactus-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
