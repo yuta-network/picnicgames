@@ -116,7 +116,7 @@ function TugOfWar() {
                     </div>
                     <div className="col-12 col-md-8">
                       <div className="related-game--title">
-                        <NavLink to="/games/hula-hoop-compotition">
+                        <NavLink to="/games/hula-hoop-competition">
                           Hula Hoop Competition
                         </NavLink>
                       </div>
