@@ -1,6 +1,3 @@
-<a href="https://www.figma.com/proto/DHNiFqwkQkZwXch83NpOEl/Root?page-id=0%3A1&type=design&node-id=1-2&viewport=461%2C246%2C0.26&t=Yf7UUaxDx7EkDU1n-1&scaling=contain&mode=design">https://www.figma.com/proto/DHNiFqwkQkZwXch83NpOEl/Root?page-id=0%3A1&type=design&node-id=1-2&viewport=461%2C246%2C0.26&t=Yf7UUaxDx7EkDU1n-1&scaling=contain&mode=design</a>
-<br />
-
 <div  align="center">
 
 
@@ -17,7 +14,7 @@
   <a  href="#"><strong>Explore the source »</strong></a>
   <a  href="#" target="_blank"><strong>Explore the documents »</strong></a>
 
-  <br  /><a  href="#" target="_blank">view demo</a>
+  <br  /><a  href="https://picnicgames.vercel.app/" target="_blank">view demo</a>
   <a  href="#" target="_blank">Video</a>
 
 
