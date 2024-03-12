@@ -11,8 +11,8 @@
 
  Slogan /
   <br  />
-  <a  href="#"><strong>Explore the source »</strong></a>
-  <a  href="#" target="_blank"><strong>Explore the documents »</strong></a>
+  <a  href="https://github.com/yuta-network/picnicgames"><strong>Explore the source »</strong></a>
+  <a  href="https://github.com/yuta-network/picnicgames/tree/main/documents" target="_blank"><strong>Explore the documents »</strong></a>
 
   <br  /><a  href="https://picnicgames.vercel.app/" target="_blank">view demo</a>
   <a  href="#" target="_blank">Video</a>
