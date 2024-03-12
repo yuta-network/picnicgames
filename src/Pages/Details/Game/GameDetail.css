@@ -1,0 +1,86 @@
+.section--game-detail {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.game-detail--title {
+  text-align: left;
+  font-size: 38px;
+  font-weight: 700;
+  color: #09303a;
+}
+
+.game-detail--dateOfPost {
+  text-align: left;
+  font-weight: 600;
+}
+
+.game-detail-contentArea {
+  text-align: left;
+}
+
+.related-games--title {
+  text-align: left;
+  font-size: 34px;
+  font-weight: 700;
+  color: #09303a;
+  padding-bottom: 20px;
+}
+
+.section--related-games {
+  padding-left: 25px;
+}
+
+.related-game--img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.related-game--img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.related-game--title {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 700;
+  color: #09303a;
+}
+
+.related-game--description {
+  text-align: left;
+}
+
+.related-game--card {
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #09303a;
+}
+
+.related-game--card a:hover {
+  color: #e74b25;
+}
+
+.game-detail-contentArea span {
+  display: block;
+}
+
+.game-detail-contentArea-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.game-detail-contentArea img {
+  width: 500px;
+  padding: 20px 0px;
+}
