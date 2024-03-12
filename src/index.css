@@ -19,3 +19,11 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+#checker {
+  border: 1px solid;
+}
+
+.checker {
+  border: 1px solid;
+}
