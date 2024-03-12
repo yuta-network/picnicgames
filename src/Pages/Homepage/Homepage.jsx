@@ -78,165 +78,120 @@ function Homepage() {
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
                 <div class="card h-100">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/example_600x400.png"}
-                    class="card-img-top"
-                    alt="..."
-                  />
+                  <NavLink to="/games/tug-of-war">
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + "/images/games/tur-of-war.jpg"
+                      }
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </NavLink>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <NavLink to="/games/tug-of-war">
+                      <h5 class="card-title">Tug of war</h5>
+                    </NavLink>
                     <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      You may recall a game of Tug of War from summer camp or
+                      gym class, but you don’t need a flock of campers or a full
+                      classroom to play this ancient childhood game of strength
+                      and strategy! It is just as fun with 2 kid...
                     </p>
                   </div>
                   <div class="card-footer">
                     <small class="text-body-secondary">
-                      Last updated 3 mins ago
+                      Last updated 1 month ago
                     </small>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/example_600x400.png"}
-                    class="card-img-top"
-                    alt="..."
-                  />
+                  <NavLink to="games/hula-hoop-competition">
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/games/Hula-Hoop-Competition.jpg"
+                      }
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </NavLink>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <NavLink to="/games/hula-hoop-competition">
+                      <h5 class="card-title">Hula Hoop Competition</h5>
+                    </NavLink>
                     <p class="card-text">
-                      This card has supporting text below as a natural lead-in
-                      to additional content.
+                      Get some music blasting, hand out some hula hoops, and get
+                      ready for an exciting competition! You’ll never know if
+                      some hula hoop prodigies might...
                     </p>
                   </div>
                   <div class="card-footer">
                     <small class="text-body-secondary">
-                      Last updated 3 mins ago
+                      Last updated 3 weeks ago
                     </small>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/example_600x400.png"}
-                    class="card-img-top"
-                    alt="..."
-                  />
+                  <NavLink to="/games/giant-yard-twister">
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/games/Giant-Yard-Twister-Board.webp"
+                      }
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </NavLink>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <NavLink to="/games/giant-yard-twister">
+                      <h5 class="card-title">Giant Yard Twister Board</h5>
+                    </NavLink>
                     <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This card has even
-                      longer content than the first to show that equal height
-                      action.
+                      This Instructable is going to show you how to make a GIANT
+                      yard Twister board. We made this in our back yard for my
+                      son's 9th birthday party. It had to be big since we had 20
+                      of my son's friends over for the party.
                     </p>
                   </div>
                   <div class="card-footer">
                     <small class="text-body-secondary">
-                      Last updated 3 mins ago
+                      Last updated 6 months ago
                     </small>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/example_600x400.png"}
-                    class="card-img-top"
-                    alt="..."
-                  />
+                  <NavLink to="/games/egg-and-spoon-race">
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/images/games/Egg-and-Spoon-Race.jpg"
+                      }
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </NavLink>
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <NavLink to="/games/egg-and-spoon-race">
+                      <h5 class="card-title">Egg and Spoon Race</h5>
+                    </NavLink>
                     <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This card has even
-                      longer content than the first to show that equal height
-                      action.
+                      Let’s start by saying that the history of Egg and Spoon
+                      racing is slightly fuzzy. The earliest recorded mention of
+                      it was in 1897, when it formed part of village
+                      celebrations in Queen Victoria’s Diamond Jubilee. But no
+                      matter it origins, this fun and highly entertaining game
+                      is...
                     </p>
                   </div>
                   <div class="card-footer">
                     <small class="text-body-secondary">
-                      Last updated 3 mins ago
-                    </small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <div className="news-section container-fluid">
-        <div className="container">
-          <div className="news-title">Our News</div>
-          <div className="news-card-layout">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card h-100">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/example_600x400.png"}
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-body-secondary">
-                      Last updated 3 mins ago
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/example_600x400.png"}
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This card has supporting text below as a natural lead-in
-                      to additional content.
-                    </p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-body-secondary">
-                      Last updated 3 mins ago
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/example_600x400.png"}
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This card has even
-                      longer content than the first to show that equal height
-                      action.
-                    </p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-body-secondary">
-                      Last updated 3 mins ago
+                      Last updated 5 months ago
                     </small>
                   </div>
                 </div>
