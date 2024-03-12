@@ -1,0 +1,62 @@
+.section--banner {
+  background-color: #f4f1ea;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.section--banner-title {
+  margin-left: 50px;
+  padding-top: 90px;
+  text-align: left;
+  font-size: 38px;
+  font-weight: 800;
+  color: #09303a;
+}
+
+.section--banner-description {
+  margin-left: 50px;
+  width: 30%;
+  text-align: left;
+}
+
+.section--banner-foximg {
+  position: absolute;
+  top: 120px;
+  right: 280px;
+}
+
+.section--banner-foximg img {
+  width: 180px;
+}
+
+.section--ourhistory {
+  background-color: #fff;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+video {
+  width: 480px;
+}
+
+.section--ourhistory-title {
+  font-weight: 800;
+  font-size: 38px;
+  text-align: left;
+  color: #09303a;
+}
+
+.section-ourhistory-description {
+  text-align: left;
+  padding-top: 10px;
+  width: 80%;
+}
+
+.section--ourhistory-right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
