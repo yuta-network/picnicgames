@@ -1,0 +1,12 @@
+.section--gallery img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.section--gallery {
+  margin-top: 50px;
+}
+
+.section--gallery .row {
+  padding: 50px;
+}
