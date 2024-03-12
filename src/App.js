@@ -5,15 +5,13 @@ import Footer from "./components/Footer/Footer";
 import Homepage from "./Pages/Homepage/Homepage";
 import About from "./Pages/About/About";
 import Games from "./Pages/Games/Games";
-import Locations from "./Pages/Locations/Locations";
-import News from "./Pages/News/News";
-import Feedback from "./Pages/Feedback/Feedback";
 import Notfound from "./Pages/Notfound/Notfound";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import TugOfWar from "./Pages/Details/Game/TugOfWar";
 import EggAndSpoonRace from "./Pages/Details/Game/EggAndSpoonRace";
 import GiantYardTwister from "./Pages/Details/Game/GiantYardTwister";
 import HulaHoopCompetition from "./Pages/Details/Game/HulaHoopCompetition";
+import Gallery from "./Pages/Gallery/Gallery";
 
 function App() {
   return (
@@ -23,6 +21,7 @@ function App() {
         <Route path="/" Component={Homepage} />
         <Route path="/about" Component={About} />
         <Route path="/games" Component={Games} />
+        <Route path="/gallery" Component={Gallery} />
         <Route path="/contact-us" Component={ContactUs} />
         <Route path="*" Component={Notfound} />
         <Route path="/games/tug-of-war" Component={TugOfWar} />
