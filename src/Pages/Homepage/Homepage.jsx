@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/css/bootstrap.css";
 import "./Homepage.css";
 import { NavLink } from "react-router-dom";
+import ContactUs from "../ContactUs/ContactUs";
 
 function Homepage() {
   return (
@@ -308,7 +309,7 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <div className="contact-us-section container-fluid" id="contact-us">
+      {/* <div className="contact-us-section container-fluid" id="contact-us">
         <div className="container">
           <div className="row">
             <div className="col-12 contact-us-line-1">
@@ -405,7 +406,8 @@ function Homepage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <ContactUs />
     </section>
   );
 }
