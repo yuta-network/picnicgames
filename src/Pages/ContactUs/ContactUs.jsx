@@ -1,6 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
+import "./ContactUs.css";
 
 function ContactUs() {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email1: "",
+    countryCode: "",
+    phoneNumber: "",
+    description: "",
+  });
+
+  const [errors, setErrors] = useState({});
+
+  const validateForm = () => {
+    const newErrors = {};
+
+    if (!formData.firstName.trim()) {
+      newErrors.firstName = "*First Name is required";
+    }
+
+    if (!formData.lastName.trim()) {
+      newErrors.lastName = "*Last Name is required";
+    }
+
+    if (!formData.email1.trim()) {
+      newErrors.email1 = "*Email Address 1 is required";
+    }
+
+    setErrors(newErrors);
+
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (validateForm()) {
+      console.log("Form is valid. Submitting data:", formData);
+    } else {
+      console.log("Form is invalid. Please check the errors.");
+    }
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
   return (
     <div>
       <div className="contact-us-section container-fluid" id="contact-us">
@@ -49,34 +98,60 @@ function ContactUs() {
                   learn about the PicnicGames experience!
                 </div>
               </div>
-              <form action="">
+              <form onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="contact-us--medium_size-input">
-                      <input type="text" placeholder="First Name" />
+                      <label>First Name</label>
+                      <input
+                        type="text"
+                        name="firstName"
+                        value={formData.firstName}
+                        onChange={handleChange}
+                      />
+                      {errors.firstName && (
+                        <span className="error-message">
+                          {errors.firstName}
+                        </span>
+                      )}
                     </div>
                     <div className="contact-us--medium_size-input">
-                      <input type="Email" placeholder="Email Address" />
+                      <label htmlFor="">Email Address 1</label>
+                      <input
+                        type="text"
+                        name="email1"
+                        value={formData.email1}
+                        onChange={handleChange}
+                      />
+                      {errors.email1 && (
+                        <span className="error-message">{errors.email1}</span>
+                      )}
                     </div>
                     <div className="contact-us--medium_size-input">
-                      <input type="text" placeholder="Zip Code" />
-                    </div>
-                    <div className="contact-us--medium_size-input">
-                      <input type="text" placeholder="Last Name" />
+                      <label htmlFor="">Country Code</label>
+                      <input type="text" placeholder="" />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="contact-us--medium_size-input">
-                      <input type="text" placeholder="Last Name" />
+                      <label htmlFor="">Last Name</label>
+                      <input
+                        type="text"
+                        name="lastName"
+                        value={formData.lastName}
+                        onChange={handleChange}
+                      />
+                      {errors.lastName && (
+                        <span className="error-message">{errors.lastName}</span>
+                      )}
                     </div>
                     <div className="contact-us--medium_size-input">
-                      <input type="text" placeholder="Last Name" />
+                      <label htmlFor="">Email Address 2</label>
+                      <input type="text" placeholder="" />
                     </div>
                     <div className="contact-us--medium_size-input">
-                      <input type="text" placeholder="Last Name" />
-                    </div>
-                    <div className="contact-us--medium_size-input">
-                      <input type="text" placeholder="Last Name" />
+                      <label htmlFor="">Phone Number</label>
+                      <input type="text" placeholder="" />
                     </div>
                   </div>
                 </div>
@@ -92,7 +167,7 @@ function ContactUs() {
                 <div className="row">
                   <div className="col-12">
                     <div className="contact-us--submit-btn">
-                      <button>Submit my information</button>
+                      <button type="submit">Submit my information</button>
                     </div>
                   </div>
                 </div>
